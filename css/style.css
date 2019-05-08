@@ -1,0 +1,103 @@
+
+/*-----------Navigation----------*/
+#nav-bar {
+  position: sticky;
+  top:0;
+  z-index: 10
+}
+
+.navbar-brandimg {
+  height: 40px;
+  padding-left: 30px;
+} 
+
+.navbar {
+  background:#C0C0C0;
+}
+
+.nav-link {
+  color: #555; 
+  font-weight: 600; 
+  font-size: 16px;
+}
+
+/*----------Slider--------*/
+#slider {
+  width:100%;
+}
+.carousel-caption {
+  top:50%;
+  transform: translateY(-50%);
+  bottom:initial;   
+}
+h4 { 
+  font-size:45px;
+  font-color: Black;
+}
+
+/*------------- catalogue----------*/
+#catalogue {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#catalogue-content {
+  padding-top:20px;
+}
+#box {
+  width: 333px
+}
+
+/*---------who we are----------*/
+
+.col-6 {
+  text-align:center
+}
+
+.whoweare {
+  overflow: hidden;
+}
+
+.whoweare > div {
+  float: left;
+  padding: 5%;
+}
+.imgwhoweare {
+  width: 50px
+}
+
+/*------bestseller----------*/
+
+#bestseller
+{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+h1 {
+  text-align:center;
+    padding-bottom:10px
+}
+
+.bestseller {
+  overflow: hidden;
+}
+
+.bestseller > .row {
+  float: left;
+  padding: 6%;
+}
+
+#video {
+  text-align: center;
+}
+
+/*----------Contact--------*/
+
+/*---------- Footer --------*/
+
+.page-footer {
+  background-color:#C0C0C0;
+}
+
+.as-root {
+  text-align: center;
+}
